@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+            .moviable{position: absloute ;}
+        
+        </style>
+        <script type ="text/javascript">
+            var x=4;
+            var y=5;
+            var dest x =300;
+            var dest y =300;
+            var interval =10;
+            function moveImages()
+            {
+                if(x<dest_x)
+                    x=x+interval;
+                if(y <dest_y)
+                    y=y+interval;
+
+                document.getElementById("image").style.top=y+"px";
+                document.getElementById("image").style.left=x+"px";
+                if((x+interval<dest_x) &&(y+interval<dest_Y))
+                {
+                    window.setTImeout("image()",100);
+
+                }
+
+            }
+        </script>
+    </head>
+    <body bgcolor="blue" onload=""moveImage()">
+        <div id="image" class=""moviable">
+            <img height=""500" width="500" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fetedge-insights.com%2Fin-focus%2Ftrending%2Fsunita-williams-indian-origin-astronaut-set-to-embark-on-space-mission-again%2F&psig=AOvVaw0raf8C-48MNNTYHjxok4be&ust=1725081087944000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCOiWsv35m4gDFQAAAAAdAAAAABAE" alt="please link to valide image"/>
+        </div>
+    </body>"
+</html>
